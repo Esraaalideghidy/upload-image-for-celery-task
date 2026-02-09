@@ -6,11 +6,11 @@ This Django project demonstrates **asynchronous image uploading** using Celery. 
 ---
 
 ### ⚙️ Features
-- Upload images asynchronously with Django + Celery.
-- Immediate response to user after upload request (no waiting).
-- Background processing of images (e.g., saving, resizing, validation).
-- Download or view uploaded images.
-- Demonstrates real-world use of task queues for long-running operations.
+-Upload images asynchronously with Django + Celery using Redis in Docker.
+-Immediate response to users after upload request (no waiting).
+-Background processing of images (saving, resizing, validation).
+-Download or view uploaded images.
+-Demonstrates real-world use of task queues for long-running operations.
 
 ---
 
